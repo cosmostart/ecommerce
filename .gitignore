@@ -1,0 +1,7 @@
+*.pyc
+__pycache__
+home/mycode/ecommerce/db.sqlite3
+venv
+.idea
+.vscode
+.python-version
