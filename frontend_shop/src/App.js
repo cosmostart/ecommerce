@@ -1,20 +1,20 @@
 import {Routes, Route} from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap.js';
-import Header from './components/Header';
-import Home from './components/Home';
-import Footer from './components/Footer';
-import CategoryProducts from './components/CategoryProducts';
-import ProductDetail from './components/ProductDetail';
-import Register from './components/Register';
-import Login from './components/Login';
-import Logout from './components/Logout';
-import Checkout from './components/Checkout';
+import Header from './components/organisms/Header';
+import Home from './components/pages/Home';
+import Footer from './components/organisms/Footer';
+import CategoryProducts from './components/pages/CategoryProducts';
+import ProductDetail from './components/pages/ProductDetail';
+import Register from './components/pages/Register';
+import Login from './components/pages/Login';
+import Logout from './components/pages/Logout';
+import Checkout from './components/pages/Checkout';
 import { CartContext } from './Context';
 import { useState } from 'react';
-import MakeOrder from './components/MakeOrder';
-import SearchProducts from './components/SearchProducts';
-import NotFound from './components/NotFound';
+import MakeOrder from './components/pages/MakeOrder';
+import SearchProducts from './components/pages/SearchProducts';
+import NotFound from './components/pages/NotFound';
 
 const checkCart = localStorage.getItem('cartData');
 
